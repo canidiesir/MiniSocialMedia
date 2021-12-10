@@ -1,0 +1,38 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 0 20px;
+}
+
+.post span:first-child {
+    font-weight: bold;
+}
+
+.post_list {
+    margin: 20px 0;
+}
+
+#header{
+    margin: 20px
+}
+
+#users > * {
+    margin: 10px;
+    width: fit-content;
+}
+
+#users {
+    display: flex;
+    flex-direction: column;
+}
+
+#userPage {
+    margin: 20px;
+}
+
+#posts, #users, #userPage{
+    overflow-y: auto;
+    max-height: 90vh;
+}
